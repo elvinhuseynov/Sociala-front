@@ -26,7 +26,8 @@
       1,
       { "extensions": [".js", ".jsx", ".ts", "tsx"] }
     ],
-    "react/button-has-type": "off"
+    "react/button-has-type": "off",
+    "react/jsx-fragments": "off"
   },
   "settings": {
     "react": {

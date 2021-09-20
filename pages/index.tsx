@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-
+import Link from "next/link";
 import Counter from "../components/counter/Counter";
 import styles from "../styles/Home.module.css";
 
@@ -13,6 +13,7 @@ const IndexPage: NextPage = () => (
     <header className={styles.header}>
       <img src="/logo.svg" className={styles.logo} alt="logo" />
       <Counter />
+      <Link href="/blog">Blog</Link>
       <p>
         Edit <code>src/App.tsx</code> and save to reload.
       </p>
